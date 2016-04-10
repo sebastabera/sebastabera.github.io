@@ -1,0 +1,12 @@
+li {
+	list-style: none;
+	margin-bottom: 10px !important;
+}
+
+.thumbnail {
+	margin-bottom: 2px !important;
+}
+
+.thumbnails h3 {
+	margin-top: 5px !important;
+}
