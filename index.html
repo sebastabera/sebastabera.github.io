@@ -10,27 +10,6 @@
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript" src="js/jquery.js"></script>
   <script src="js/main.js"></script>
-    <!--<script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-
-        var data = google.visualization.arrayToDataTable([
-          ['Navegador', 'Usuarios por día'],
-          ['IE6',     5],
-          ['IE7',      20],
-          ['IE8',  75]
-        ]);
-
-        var options = {
-          title: 'Usuarios Internet Explorer'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-        chart.draw(data, options);
-      }
-    </script>-->
 
 </head>
 <body>
@@ -62,12 +41,15 @@
 
     <div class="container">
     	<div class="row">
-    		<div class="col-md-10">
-    			<div id="piechart" style="width: 900px; height: 500px;"></div>
-    		</div>
-        <div class="col-md-2">
-          <button id="cambioValores">Realizar cambio de valores</button>
+    		<div class="col-md-4">
+          <h3> Pie Chart </h3>
         </div>
+        <div class="col-md-8">
+          <button id="cambioValores">Realizar cambio de valores Pie Chart</button>
+        </div>
+        <div class="col-md-12">          
+    			<div id="piechart" style="width: 900px; height: 500px;"></div>
+        </div>        
     	</div>
     </div>
 

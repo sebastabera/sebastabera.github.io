@@ -28,7 +28,8 @@ $(document).ready(function() {
         var data = google.visualization.arrayToDataTable(table);
 
         var options = {
-          title: 'Usuarios Internet Explorer'
+          title: 'Usuarios Internet Explorer',
+          is3D: true,
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
