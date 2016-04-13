@@ -5,32 +5,33 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>prueba sumset</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="">
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+    <!--<script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
 
         var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['Work',     11],
-          ['Eat',      2],
-          ['Commute',  2],
-          ['Watch TV', 2],
-          ['Sleep',    7]
+          ['Navegador', 'Usuarios por día'],
+          ['IE6',     5],
+          ['IE7',      20],
+          ['IE8',  75]
         ]);
 
         var options = {
-          title: 'My Daily Activities'
+          title: 'Usuarios Internet Explorer'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
 
         chart.draw(data, options);
       }
-    </script>
+    </script>-->
+
 </head>
 <body>
 
@@ -55,21 +56,25 @@
 
     <div class="page-header">
       <div class="container">
-        <h1>Bienvenido a mi sitio. <small> Espacio de presentación de la prueba!!</small></h1>
+        <h2>Bienvenido Sebastian Tabera Quintero. <small> Espacio de presentación de la prueba!!</small></h2>
       </div>
     </div>
 
     <div class="container">
     	<div class="row">
-    		<div class="col-md-12">
+    		<div class="col-md-10">
     			<div id="piechart" style="width: 900px; height: 500px;"></div>
     		</div>
+        <div class="col-md-2">
+          <button id="cambioValores">Realizar cambio de valores</button>
+        </div>
     	</div>
     </div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+    
 </body>
 </html>
-"Hola Sebastian Tabera" 
+
